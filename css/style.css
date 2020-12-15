@@ -1,0 +1,10 @@
+/* nav bar*/
+.navbar {
+  background-color: cornsilk; }
+
+.nav-link:hover {
+  color: black; }
+
+#Logo__Nav {
+  min-width: 70px;
+  max-width: 90px; }
