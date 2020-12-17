@@ -60,12 +60,34 @@ h1 {
   font-family: Arial, Helvetica, sans-serif; }
 
 /*Area Contable*/
+.Main_Contable, .Main_Juridico, .Main_Previsional {
+  background-color: cornsilk; }
+
 #imagen__AreaContable {
   background-image: url(../Imagenes/Area_Contable.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   padding-top: 90px;
   min-height: 500px; }
+
+.Contenedor_Responsables, .Contenedor_Sueldos, .Contenedor_Empleados, .Contenedor_Facturacion, .Contenedor_Monotributista, .Contenedor_Impuestos, .Contenedor_Sucesiones, .Contenedor_Transito, .Contenedor_Laboral, .Contenedor_Contratos, .Contenedor_Sociedades, .Contenedor_Divorcio {
+  height: 200px;
+  border: solid;
+  border-radius: 5%;
+  margin: 30px;
+  padding: 15px;
+  background-color: whitesmoke; }
+
+.H3_Contable {
+  text-align: center;
+  color: goldenrod;
+  margin: 5px;
+  padding: 5px; }
+
+.P_Contable {
+  text-align: center;
+  margin: 5px;
+  padding: 5px; }
 
 /* Area Juridica*/
 #imagen__AreaJuridica {
@@ -75,7 +97,7 @@ h1 {
   padding-top: 90px;
   min-height: 500px; }
 
-/*Previsional*/
+/* Previsional */
 #imagen__Previsional {
   background-image: url(../Imagenes/Area_Previsional.jpg);
   background-repeat: no-repeat;
@@ -148,4 +170,20 @@ h1 {
 @media (max-width: 800px) {
   h1 {
     font-size: 30px;
-    text-align: center; } }
+    text-align: center; }
+  #P__index {
+    font-size: 20px;
+    color: black; }
+  .Mision {
+    font-size: 30px;
+    max-width: 100%; }
+  .Vision {
+    font-size: 30px;
+    max-width: 100%; }
+  .Main_Contacto {
+    background-color: blanchedalmond;
+    background-image: none;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    width: 250px; } }
