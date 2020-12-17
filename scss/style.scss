@@ -222,9 +222,18 @@ background-color: #C30907;
 
 
 @media (max-width: 800px) {
+    .navbar {max-width: 91%;}
     h1 {font-size: 30px; text-align: center;}
     #P__index {font-size: 20px;color: black;}
-    .Mision {font-size: 30px; max-width: 100%;}
-    .Vision {font-size: 30px; max-width: 100%;}
-    .Main_Contacto {background-color: blanchedalmond; background-image: none; height: auto; padding: 0; margin: 0; width: 250px;}
+    #imagen__index {max-width: 91%;}
+    .Mision {font-size: 30px; width: 91%; padding: 0px; margin: 0px;}
+    .Vision {font-size: 30px; width: 91%; padding: 0px; margin: 0px;}
+    .Main_Contacto {background-color: blanchedalmond; background-image: none; max-height: 700px;}
+    .Formulario__contacto {height: auto; width: 100%; margin: 0;}
+    .Imagen_Mision {width: 91%;}
+    .Imagen_Vision {width: 91%;}
+    .Introduccion__index {padding: 0px; margin: 0px; width: 100%;}
+    .Imagen_Introduccion {max-width: 100%;}
+    .footer {max-width: 91%;}
+    
 }
