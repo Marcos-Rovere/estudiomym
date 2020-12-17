@@ -3,9 +3,7 @@ ul {
 }
 
 /* nav bar*/
-.navbar {
-    background-color: white;
-}
+
 .nav-link:hover {
  color: black;
 }
@@ -53,6 +51,9 @@ h1 {
 .Imagen__Index{
     height: 250px;
     width: 325px;
+}
+.Imagen_Introduccion {
+    @extend .Imagen__Index
 }
 .h2__Index {
     text-align: center;
@@ -221,7 +222,7 @@ background-color: #C30907;
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 779px) {
     .navbar {max-width: 91%;}
     h1 {font-size: 30px; text-align: center;}
     #P__index {font-size: 20px;color: black;}

@@ -2,9 +2,6 @@ ul {
   list-style: none; }
 
 /* nav bar*/
-.navbar {
-  background-color: white; }
-
 .nav-link:hover {
   color: black; }
 
@@ -46,7 +43,7 @@ h1 {
   margin: 20px;
   padding: 20px; }
 
-.Imagen__Index {
+.Imagen__Index, .Imagen_Introduccion {
   height: 250px;
   width: 325px; }
 
@@ -167,7 +164,7 @@ h1 {
   text-align: center;
   color: white; }
 
-@media (max-width: 800px) {
+@media (max-width: 779px) {
   .navbar {
     max-width: 91%; }
   h1 {
