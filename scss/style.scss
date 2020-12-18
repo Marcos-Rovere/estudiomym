@@ -172,6 +172,7 @@ h1 {
 .footer{
     background-color: black;
     height: 200px;
+    
 }
 
 .redes-container{
@@ -235,6 +236,6 @@ background-color: #C30907;
     .Imagen_Vision {width: 91%;}
     .Introduccion__index {padding: 0px; margin: 0px; width: 100%;}
     .Imagen_Introduccion {max-width: 100%;}
-    .footer {max-width: 91%;}
+    .footer {display: flex; flex-direction: column;justify-content: center; height: 30%;}
     
 }

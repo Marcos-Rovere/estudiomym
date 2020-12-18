@@ -204,4 +204,7 @@ h1 {
   .Imagen_Introduccion {
     max-width: 100%; }
   .footer {
-    max-width: 91%; } }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30%; } }
