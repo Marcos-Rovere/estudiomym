@@ -67,7 +67,7 @@ h1 {
       /*Area Contable*/
 
 .Main_Contable {
-    background-color: cornsilk;
+    background-color: white;
 }      
 #imagen__AreaContable {
     background-image: url(../Imagenes/Area_Contable.jpg);
@@ -77,27 +77,52 @@ h1 {
     min-height: 500px;
 }
 .Contenedor_Responsables{
-    height: 200px;
-    border: solid;
-    border-radius: 5%;
-    margin: 30px;
-    padding: 15px;
-    background-color: whitesmoke;
+    height: 250px;
+    margin: 15px;
+    padding: 10px;
+    background-image: url(../Imagenes/ResponsablesIncriptos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .Contenedor_Sueldos {
-    @extend .Contenedor_Responsables
+    height: 250px;
+    margin: 15px;
+    padding: 10px;
+    background-image: url(../Imagenes/Sueldos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .Contenedor_Empleados {
-    @extend  .Contenedor_Responsables
+    height: 250px;
+    margin: 15px;
+    padding: 10px;
+    background-image: url(../Imagenes/Empleados.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .Contenedor_Facturacion{
-    @extend  .Contenedor_Responsables
+    height: 250px;
+    margin: 15px;
+    padding: 10px;
+    background-image: url(../Imagenes/Facturacion.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .Contenedor_Monotributista{
-    @extend .Contenedor_Responsables
+    height: 250px;
+    margin: 15px;
+    padding: 10px;
+    background-image: url(../Imagenes/Monotributo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .Contenedor_Impuestos {
-    @extend  .Contenedor_Responsables
+    height: 250px;
+    margin: 15px;
+    padding: 10px;
+    background-image: url(../Imagenes/Impuestos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .H3_Contable {
     text-align: center;
@@ -123,27 +148,81 @@ h1 {
     min-height: 500px;
 }
 .Contenedor_Sucesiones {
-    @extend  .Contenedor_Responsables
+    height: 250px;
+    margin: 15px;
+    padding: 10px;
+    background-image: url(../Imagenes/Sucesion.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .Contenedor_Transito {
-    @extend  .Contenedor_Responsables
+    height: 250px;
+    margin: 15px;
+    padding: 10px;
+    background-image: url(../Imagenes/transito.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .Contenedor_Laboral {
-    @extend  .Contenedor_Responsables
+    height: 250px;
+    margin: 15px;
+    padding: 10px;
+    background-image: url(../Imagenes/Laboral.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .Contenedor_Contratos {
-    @extend  .Contenedor_Responsables
+    height: 250px;
+    margin: 15px;
+    padding: 10px;
+    background-image: url(../Imagenes/Contrato.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .Contenedor_Sociedades {
-    @extend  .Contenedor_Responsables
+    height: 250px;
+    margin: 15px;
+    padding: 10px;
+    background-image: url(../Imagenes/Sociedades.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .Contenedor_Divorcio {
-    @extend  .Contenedor_Responsables
+    height: 250px;
+    margin: 15px;
+    padding: 10px;
+    background-image: url(../Imagenes/Divorcio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
       /* Previsional */
 .Main_Previsional {
     @extend .Main_Contable
+}
+.Contenedor_Jubilacion{
+    height: 350px;
+    margin: 15px;
+    padding: 10px;
+    background-image: url(../Imagenes/Jubilacion.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.Contenedor_Pension{
+    height: 350px;
+    margin: 15px;
+    padding: 10px;
+    background-image: url(../Imagenes/Pension.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.Contenedor_Retiro{
+    height: 350px;
+    margin: 15px;
+    padding: 10px;
+    background-image: url(../Imagenes/Retiro.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #imagen__Previsional {
@@ -223,19 +302,18 @@ background-color: #C30907;
 }
 
 
-@media (max-width: 779px) {
-    .navbar {max-width: 91%;}
+@media (max-width: 780px) {
+    .navbar {max-width: 100%;}
     h1 {font-size: 30px; text-align: center;}
     #P__index {font-size: 20px;color: black;}
-    #imagen__index {max-width: 91%;}
-    .Mision {font-size: 30px; width: 91%; padding: 0px; margin: 0px;}
-    .Vision {font-size: 30px; width: 91%; padding: 0px; margin: 0px;}
+    #imagen__index {max-width: 100%;}
+    .Mision {font-size: 30px; width: 100%; padding: 0px; margin: 0px;}
+    .Vision {font-size: 30px; width: 100%; padding: 0px; margin: 0px;}
     .Main_Contacto {background-color: blanchedalmond; background-image: none; max-height: 700px;}
     .Formulario__contacto {height: auto; width: 100%; margin: 0;}
-    .Imagen_Mision {width: 91%;}
-    .Imagen_Vision {width: 91%;}
+    .Imagen_Mision {width: 100%;}
+    .Imagen_Vision {width: 100%;}
     .Introduccion__index {padding: 0px; margin: 0px; width: 100%;}
     .Imagen_Introduccion {max-width: 100%;}
     .footer {display: flex; flex-direction: column;justify-content: center; height: 30%;}
-    
 }

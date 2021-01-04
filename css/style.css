@@ -58,7 +58,7 @@ h1 {
 
 /*Area Contable*/
 .Main_Contable, .Main_Juridico, .Main_Previsional {
-  background-color: cornsilk; }
+  background-color: white; }
 
 #imagen__AreaContable {
   background-image: url(../Imagenes/Area_Contable.jpg);
@@ -67,13 +67,53 @@ h1 {
   padding-top: 90px;
   min-height: 500px; }
 
-.Contenedor_Responsables, .Contenedor_Sueldos, .Contenedor_Empleados, .Contenedor_Facturacion, .Contenedor_Monotributista, .Contenedor_Impuestos, .Contenedor_Sucesiones, .Contenedor_Transito, .Contenedor_Laboral, .Contenedor_Contratos, .Contenedor_Sociedades, .Contenedor_Divorcio {
-  height: 200px;
-  border: solid;
-  border-radius: 5%;
-  margin: 30px;
-  padding: 15px;
-  background-color: whitesmoke; }
+.Contenedor_Responsables {
+  height: 250px;
+  margin: 15px;
+  padding: 10px;
+  background-image: url(../Imagenes/ResponsablesIncriptos.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.Contenedor_Sueldos {
+  height: 250px;
+  margin: 15px;
+  padding: 10px;
+  background-image: url(../Imagenes/Sueldos.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.Contenedor_Empleados {
+  height: 250px;
+  margin: 15px;
+  padding: 10px;
+  background-image: url(../Imagenes/Empleados.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.Contenedor_Facturacion {
+  height: 250px;
+  margin: 15px;
+  padding: 10px;
+  background-image: url(../Imagenes/Facturacion.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.Contenedor_Monotributista {
+  height: 250px;
+  margin: 15px;
+  padding: 10px;
+  background-image: url(../Imagenes/Monotributo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.Contenedor_Impuestos {
+  height: 250px;
+  margin: 15px;
+  padding: 10px;
+  background-image: url(../Imagenes/Impuestos.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
 
 .H3_Contable {
   text-align: center;
@@ -94,7 +134,79 @@ h1 {
   padding-top: 90px;
   min-height: 500px; }
 
+.Contenedor_Sucesiones {
+  height: 250px;
+  margin: 15px;
+  padding: 10px;
+  background-image: url(../Imagenes/Sucesion.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.Contenedor_Transito {
+  height: 250px;
+  margin: 15px;
+  padding: 10px;
+  background-image: url(../Imagenes/transito.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.Contenedor_Laboral {
+  height: 250px;
+  margin: 15px;
+  padding: 10px;
+  background-image: url(../Imagenes/Laboral.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.Contenedor_Contratos {
+  height: 250px;
+  margin: 15px;
+  padding: 10px;
+  background-image: url(../Imagenes/Contrato.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.Contenedor_Sociedades {
+  height: 250px;
+  margin: 15px;
+  padding: 10px;
+  background-image: url(../Imagenes/Sociedades.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.Contenedor_Divorcio {
+  height: 250px;
+  margin: 15px;
+  padding: 10px;
+  background-image: url(../Imagenes/Divorcio.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
 /* Previsional */
+.Contenedor_Jubilacion {
+  height: 350px;
+  margin: 15px;
+  padding: 10px;
+  background-image: url(../Imagenes/Jubilacion.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.Contenedor_Pension {
+  height: 350px;
+  margin: 15px;
+  padding: 10px;
+  background-image: url(../Imagenes/Pension.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.Contenedor_Retiro {
+  height: 350px;
+  margin: 15px;
+  padding: 10px;
+  background-image: url(../Imagenes/Retiro.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
 #imagen__Previsional {
   background-image: url(../Imagenes/Area_Previsional.jpg);
   background-repeat: no-repeat;
@@ -164,9 +276,9 @@ h1 {
   text-align: center;
   color: white; }
 
-@media (max-width: 779px) {
+@media (max-width: 780px) {
   .navbar {
-    max-width: 91%; }
+    max-width: 100%; }
   h1 {
     font-size: 30px;
     text-align: center; }
@@ -174,15 +286,15 @@ h1 {
     font-size: 20px;
     color: black; }
   #imagen__index {
-    max-width: 91%; }
+    max-width: 100%; }
   .Mision {
     font-size: 30px;
-    width: 91%;
+    width: 100%;
     padding: 0px;
     margin: 0px; }
   .Vision {
     font-size: 30px;
-    width: 91%;
+    width: 100%;
     padding: 0px;
     margin: 0px; }
   .Main_Contacto {
@@ -194,9 +306,9 @@ h1 {
     width: 100%;
     margin: 0; }
   .Imagen_Mision {
-    width: 91%; }
+    width: 100%; }
   .Imagen_Vision {
-    width: 91%; }
+    width: 100%; }
   .Introduccion__index {
     padding: 0px;
     margin: 0px;
