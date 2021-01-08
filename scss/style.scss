@@ -126,14 +126,18 @@ h1 {
 }
 .H3_Contable {
     text-align: center;
-    color: goldenrod;
+    color: white;
     margin: 5px;
     padding: 5px;
+    font-size: 50px;
+    text-decoration: underline;
 }
 .P_Contable {
     text-align: center;
     margin: 5px;
     padding: 5px;
+    color: whitesmoke;
+    font-size: 20px;
 }
 
     /* Area Juridica*/
@@ -309,11 +313,19 @@ background-color: #C30907;
     #imagen__index {max-width: 100%;}
     .Mision {font-size: 30px; width: 100%; padding: 0px; margin: 0px;}
     .Vision {font-size: 30px; width: 100%; padding: 0px; margin: 0px;}
+    .P__Index {font-size: 30px;}
     .Main_Contacto {background-color: blanchedalmond; background-image: none; max-height: 700px;}
     .Formulario__contacto {height: auto; width: 100%; margin: 0;}
     .Imagen_Mision {width: 100%;}
     .Imagen_Vision {width: 100%;}
     .Introduccion__index {padding: 0px; margin: 0px; width: 100%;}
     .Imagen_Introduccion {max-width: 100%;}
-    .footer {display: flex; flex-direction: column;justify-content: center; height: 30%;}
+    .H3_Contable {font-size: 25px;}
+    .P_Contable {font-size: 18px;}
+    .footer {display: flex; flex-direction: column; justify-content: center; height: 30%;}
+}
+@media (max-width: 480px) {
+    .H3_Contable {font-size: 22px;}
+    .P_Contable {font-size: 15px;}
+    .P__Index {font-size: 22px;}
 }
